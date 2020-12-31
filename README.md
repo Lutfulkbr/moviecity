@@ -6,7 +6,7 @@ Movie_City is a Ruby API library for storing movie instances along with their as
 
 To install this repository:
 
-git clone git@github.com:Lutfulkbr/moviecity.git
+git clone git@github.com:Lutfulkbr/moviecity.git "directory_name"
 
 # Usage
 

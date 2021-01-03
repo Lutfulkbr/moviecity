@@ -1,24 +1,33 @@
 class CLI
 
     def call
+        puts ""
         puts "Welcome to the Movie City!"
         API.fetch_movies
         menu
     end
 
     def menu
+        puts ""
         puts "To reveal the list of movies type 'yes' or any other key to exit!"
 
         input = gets.strip.downcase
 
         if input == "yes" || input == "y"
+            sleep (1)
+            puts "---------"
             puts "Here's the list of movies!"
+            puts "---------"
             display_list_of_movies
             ask_user_for_movie_choice
 
-            sleep(2)
+            sleep(1)
 
             menu
+            puts ""
+            puts "Goodbye. Thank you for using Movie city !!!"
+            puts "🎥 🎞"
+            puts ""
         end
     end
 
@@ -29,6 +38,7 @@ class CLI
     end
 
     def ask_user_for_movie_choice
+        puts ""
         puts "Enter the number from the list you'd like to know more info about: "
         input = gets.strip.to_i - 1
 

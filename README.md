@@ -20,6 +20,8 @@ Please make sure to update tests as appropriate.
 
 # License
 
+https://choosealicense.com/licenses/mit/
+
 MIT License
 
 Copyright (c) [2020] [Lutful Kabir]

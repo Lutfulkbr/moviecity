@@ -10,7 +10,7 @@ git clone git@github.com:Lutfulkbr/moviecity.git "directory_name"
 
 # Usage
 
-To run this program, navigate to the directory 'cd /movie_city' in your terminal, then type './bin/movie-city'
+To run this program, after installing navigate to the directory 'cd moviecity' in your terminal, then type './bin/movie-city'
 
 # Contributing
 
